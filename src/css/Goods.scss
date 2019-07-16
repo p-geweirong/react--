@@ -1,0 +1,17 @@
+.demo-loadmore-list {
+  min-height: 350px;
+}
+.demo-loadmore-list {
+  .ant-list-item {
+    padding: 12px;
+    background: #f0f2f5;
+    &:nth-child(odd) {
+      background: #e7e7e7;
+    }
+    .ant-avatar {
+      width:150px;
+      height: 150px;
+      border-radius: 5px;
+    }
+  }
+}
